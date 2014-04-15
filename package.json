@@ -1,0 +1,28 @@
+{
+  "name": "katar-memorydb",
+  "version": "0.0.1",
+  "description": "Memory data adapter for katar",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --harmony --bail --timeout 5000 ./node_modules/katar-db-test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jksdua/katar-memorydb"
+  },
+  "keywords": [
+    "queue",
+    "katar",
+    "memorydb"
+  ],
+  "author": "Jaap Karan Singh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jksdua/katar-memorydb/issues"
+  },
+  "homepage": "https://github.com/jksdua/katar-memorydb",
+  "devDependencies": {
+    "mocha": "~1.18.0",
+    "katar-db-test": "~0.0.1"
+  }
+}
